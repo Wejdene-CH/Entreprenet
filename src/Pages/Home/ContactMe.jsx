@@ -3,9 +3,9 @@ export default function ContactMe() {
     <section id="Contact" className="contact--section">
       <div>
         <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
+        <h2>Contact Us</h2>
         <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+          Contact us for inquiries, assistance, or collaborations!
         </p>
       </div>
       <form className="contact--form--container">
@@ -55,9 +55,9 @@ export default function ContactMe() {
           <span className="text-md">Choose a topic</span>
           <select id="choose-topic" className="contact--input text-md">
             <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
+            <option>Inquery</option>
+            <option>Assistance</option>
+            <option>Collaboration</option>
           </select>
         </label>
         <label htmlFor="message" className="contact--label">

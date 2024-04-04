@@ -181,8 +181,17 @@ h2 {
   line-height: 24px;
   cursor: pointer;
 }
+.navbar--content:hover {
+  font-size: 1.1em;
+  text-decoration: underline;
+}
 .navbar--active-content {
   color: var(--primary);
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 42.667px;
 }
 /* Navbar Styler Ends */
 
@@ -450,7 +459,7 @@ h2 {
   width: 40%;
   row-gap: 32px;
 }
-.container {
+.cont {
   display: grid;
   grid-template-columns: repeat(2, auto);
   column-gap: 32px;
@@ -528,6 +537,7 @@ input[type="checkbox"] {
   align-items: flex-start;
   gap: 42.667px;
   text-decoration: none;
+  cursor: pointer;
 }
 .footer--items ul > li > a {
   text-decoration: none;
@@ -554,10 +564,16 @@ input[type="checkbox"] {
   align-self: stretch;
 }
 .footer--content {
-  color: var(--black);
-  font-size: 18.667px;
+  color: var(--darkblue);
+  font-size: 16px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.footer--content:hover {
+  font-size: 1.1em;
+  text-decoration: underline;
 }
 
 /* Responsive Screens */

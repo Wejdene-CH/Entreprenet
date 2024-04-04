@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <img src="./img/logo4.png" alt="Logoipsum" />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -69,10 +69,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="AboutMe"
               className="navbar--content"
             >
-              Portfolio
+              About Us
             </Link>
           </li>
           <li>
@@ -83,10 +83,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to="MyPortfolio"
               className="navbar--content"
             >
-              About Me
+              Statistics
             </Link>
           </li>
           <li>
@@ -105,18 +105,32 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link>
+      <div className="button-container">
+        <Link
+          onClick={closeMenu}
+          activeClass="navbar--active-content"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          to="Contact"
+          className="btn btn-outline-primary"
+        >
+          Contact Us
+        </Link>
+        <Link
+          onClick={closeMenu}
+          activeClass="navbar--active-content"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          to="Login"
+          className="btn btn-outline-primary"
+        >
+          Login
+        </Link>
+      </div>
     </nav>
   );
 }
