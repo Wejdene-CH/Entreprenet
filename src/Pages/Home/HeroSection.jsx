@@ -1,16 +1,20 @@
+import { Carousel } from 'nuka-carousel';
+
 export default function HeroSection() {
+
   return (
     <section id="heroSection" className="hero--section">
+      
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">EntrepreNet :</p>
+        
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">WHERE DEALS</span>{" "}
+            <span className="hero--section-title--color"> WHERE DEALS  </span>{" "}
             <br />
             GET DONE
           </h1>
           <p className="hero--section-description">
-            Connecting entrepreneurs & investors.
+            Connecting entrepreneurs and investors.
             <br /> Building the future, one deal at a time !
           </p>
         </div>

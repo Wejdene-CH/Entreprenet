@@ -103,6 +103,20 @@ function Navbar() {
               Testimonials
             </Link>
           </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Contact"
+              className="navbar--content"
+            >
+              Contact us
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="button-container">
@@ -113,22 +127,10 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          to="Contact"
-          className="btn btn-outline-primary"
-        >
-          Contact Us
-        </Link>
-        <Link
-          onClick={closeMenu}
-          activeClass="navbar--active-content"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
           to="Login"
           className="btn btn-outline-primary"
         >
-          Login
+          Sign in
         </Link>
       </div>
     </nav>

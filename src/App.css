@@ -26,7 +26,7 @@ p {
   --white: #ffffff;
 }
 .btn {
-  font-family: "Roboto";
+  font-family: Arial, Helvetica, sans-serif ;
   display: inline-block;
   padding: 14px 32px;
   font-size: 16px;
@@ -180,10 +180,14 @@ h2 {
   font-weight: 400;
   line-height: 24px;
   cursor: pointer;
+  transition: font-size 0.5s;
+  font-family: "Poetsen One";
 }
 .navbar--content:hover {
   font-size: 1.1em;
-  text-decoration: underline;
+  font-style: bold;
+ 
+
 }
 .navbar--active-content {
   color: var(--primary);
@@ -225,6 +229,7 @@ h2 {
   font-size: 74.667px;
   font-weight: 700;
   line-height: 90px;
+  font-family: "Poetsen One";
   align-self: stretch;
 }
 .hero--section--title--color {
@@ -255,10 +260,12 @@ h2 {
   gap: 106.667px;
 }
 .skills--section--heading {
-  color: var(--heading-color);
+  color:#006b6a;
   font-size: 64px;
   font-weight: 700;
   line-height: 77px;
+  font-family: "Poetsen One";
+
 }
 .skills--section--container {
   display: grid;
@@ -323,6 +330,12 @@ h2 {
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.about--section h1{
+  font-family: "Poetsen One";
+  color: #006b6a;
+
 }
 .about--section--img > img {
   width: 100%;
@@ -724,7 +737,7 @@ input[type="checkbox"] {
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255);
-    top: -20rem;
+    top: -30rem;
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;
