@@ -1,4 +1,3 @@
-import { Carousel } from 'nuka-carousel';
 
 export default function HeroSection() {
 
